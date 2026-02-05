@@ -26,7 +26,8 @@ make test
 ```sh
 make lint
 ```
-
+##  badge 
+[![test-hexlet](https://github.com/Cheshire-12/hexlet-ci-app/actions/workflows/test-hexlet.yaml/badge.svg)](https://github.com/Cheshire-12/hexlet-ci-app/actions/workflows/test-hexlet.yaml)
 ---
 
 [![Hexlet Ltd. logo](https://raw.githubusercontent.com/Hexlet/assets/master/images/hexlet_logo128.png)](https://hexlet.io/?utm_source=github&utm_medium=link&utm_campaign=hexlet-ci-app)
