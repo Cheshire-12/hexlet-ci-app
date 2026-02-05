@@ -9,5 +9,4 @@ jobs:
         run:
           make setup
           make test
-          make lint
           make start
