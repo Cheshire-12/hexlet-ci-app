@@ -1,10 +1,16 @@
 name: test-hexlet
 on: push
 jobs:
-  test-hexlet:
+  build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '18.x'
+          cache: 'npm'
       - run: make setup
       - run: make test
       - run: make lint
+      - name: Print Hello from Hexlet
+        uses: hexlet-components/hello-from-hexlet-action@release
